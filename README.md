@@ -61,21 +61,19 @@ npm run dev
 
 ## Project Structure
 
-\`\`\`
 ├── app/
-│   ├── layout.tsx       # Root layout
-│   └── page.tsx         # Main page
+  ├── layout.tsx # Root layout
+  └── page.tsx # Main page
 ├── components/
-│   ├── MarkdownViewer.tsx    # Main viewer component
-│   ├── Navigation.tsx        # Navigation tree
-│   ├── ContentViewer.tsx     # Content display
-│   ├── Cart.tsx             # Notebook cart
-│   └── ui/                  # UI components
+  ├── MarkdownViewer.tsx # Main viewer component
+  ├── Navigation.tsx # Navigation tree
+  ├── ContentViewer.tsx # Content display
+  ├── Cart.tsx # Notebook cart
+  └── ui/ # UI components
 ├── contexts/
-│   └── CartContext.tsx      # Notebook state management
+  └── CartContext.tsx # Notebook state management
 └── utils/
-    └── markdownParser.ts    # Markdown parsing utilities
-\`\`\`
+  └── markdownParser.ts # Markdown parsing utilities
 
 ## Contributing
 
